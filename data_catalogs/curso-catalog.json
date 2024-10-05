@@ -1,0 +1,30 @@
+[
+    {
+      "Name": "_id",
+      "Type": "string"
+    },
+    {
+      "Name": "codigo_curso",
+      "Type": "string"
+    },
+    {
+      "Name": "nombre",
+      "Type": "string"
+    },
+    {
+      "Name": "creditos",
+      "Type": "int"
+    },
+    {
+      "Name": "horas_semana",
+      "Type": "int"
+    },
+    {
+      "Name": "categoria",
+      "Type": "string"
+    },
+    {
+      "Name": "descripcion",
+      "Type": "string"
+    }
+  ]
