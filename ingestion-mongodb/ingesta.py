@@ -59,3 +59,7 @@ if __name__ == "__main__":
 
 # RESOURCES
 # https://medium.com/@stevencibambo/loading-data-from-mongodb-with-pymongo-for-analysis-c0f61a8538a0
+<<<<<<< HEAD:ingesta.py
+=======
+# we need the credentials!
+>>>>>>> 8603b12b8a4f005dac01c06acbc76edc177e2d43:ingestion-mongodb/ingesta.py
