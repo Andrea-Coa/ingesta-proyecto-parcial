@@ -3,16 +3,16 @@ import boto3
 import csv
 
 bucketname = "proyecto-parcial-out"
-tables = ["Profesor", "Dicta"]
-files = ["profesores.csv", "dicta.csv"]
+tables = ["estudiante", "beca"]
+files = ["estudiantes.csv", "becas.csv"]
 
 def get_db_connection():
     return psycopg2.connect(
-        host="your-host",
-        port="your-port",
-        user="your-username",
-        password="your-password",
-        database="your-database"
+        host="your host",
+        port="your port",
+        user="user",
+        password="password",
+        database="database"
     )
 
 def write_table_to_file(conn, table, outfile):
@@ -31,7 +31,7 @@ def upload_to_s3(filenames, bucketname):
     s3 = boto3.client('s3')
     for filename in filenames:
         subdir = filename.split(".")[0] + "/"
-        response = s3.upload_file(dir + filename, bucketname, subdir + filename)
+        response = s3.upload_file(filename, bucketname, subdir + filename)
         print(response)
     print("Ingesta PostgreSQL completada")
 # Reference:
