@@ -44,8 +44,8 @@ def retrieve_data_from_cursos():
 def upload_to_s3(filenames, bucketname):
     s3 = boto3.client('s3')
     for filename in filenames:
-        subdir = filename.split(".")[0]
-        response = s3.uploda_file(subdir + filename, bucketname, filename)
+        subdir = filename.split(".")[0] + "/"
+        response = s3.upload_file(dir + filename, bucketname, subdir + filename)
         print(response)
     print("Ingesta completada")
 
