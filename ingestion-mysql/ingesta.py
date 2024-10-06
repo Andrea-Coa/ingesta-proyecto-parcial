@@ -3,11 +3,11 @@ import csv
 import boto3
 
 mydb = mysql.connector.connect(
-    host="your-host",
+    host="54.87.109.86",
     port=8005,
     user="root",
-    password="your-password",
-    database="your-database"
+    password="utec",
+    database="matricula"
 )
 print(mydb)
 bucketname = "proyecto-parcial-out"
@@ -46,7 +46,7 @@ def upload_to_s3(filenames, bucketname):
         print(response)
     print("Ingesta completada")
 
-if __name__ == "__main.py__":
+if __name__ == "__main__":
     for i in range(len(tables)):
         write_table_to_file(table=tables[i], outfile=files[i])
     upload_to_s3(files, bucketname)
