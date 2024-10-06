@@ -1,0 +1,22 @@
+[
+    {
+      "Name": "id",
+      "Type": "bigint"
+    },
+    {
+      "Name": "fecha_fin",
+      "Type": "string"
+    },
+    {
+      "Name": "fecha_inicio",
+      "Type": "string"
+    },
+    {
+      "Name": "nombre",
+      "Type": "string"
+    },
+    {
+      "Name": "porcentaje_cobertura",
+      "Type": "double"
+    }
+  ]

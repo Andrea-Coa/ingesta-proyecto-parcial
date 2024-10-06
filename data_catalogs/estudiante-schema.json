@@ -1,0 +1,34 @@
+[
+    {
+      "Name": "id",
+      "Type": "bigint"
+    },
+    {
+      "Name": "carrera",
+      "Type": "string"
+    },
+    {
+      "Name": "correo",
+      "Type": "string"
+    },
+    {
+      "Name": "escala_pago",
+      "Type": "string"
+    },
+    {
+      "Name": "fecha_nacimiento",
+      "Type": "string"
+    },
+    {
+      "Name": "genero",
+      "Type": "string"
+    },
+    {
+      "Name": "nombre",
+      "Type": "string"
+    },
+    {
+      "Name": "beca_id",
+      "Type": "string"
+    }
+  ]

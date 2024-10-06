@@ -1,0 +1,38 @@
+[
+    {
+      "Name": "_id",
+      "Type": "string"
+    },
+    {
+      "Name": "correo_alumno",
+      "Type": "string"
+    },
+    {
+      "Name": "codigo_curso",
+      "Type": "string"
+    },
+    {
+      "Name": "nombre_curso",
+      "Type": "string"
+    },
+    {
+      "Name": "periodo",
+      "Type": "string"
+    },
+    {
+      "Name": "seccion",
+      "Type": "int"
+    },
+    {
+      "Name": "nro_vez",
+      "Type": "int"
+    },
+    {
+      "Name": "horarios",
+      "Type": "array<struct<salon:string,dia:int,hora_inicio:int,hora_fin:int,_id:string>>"
+    },
+    {
+      "Name": "__v",
+      "Type": "int"
+    }
+  ]

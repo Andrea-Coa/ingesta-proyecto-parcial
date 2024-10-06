@@ -1,0 +1,70 @@
+[
+    {
+      "Name": "nro_inscritos",
+      "Type": "bigint"
+    },
+    {
+      "Name": "horarios.val.hora_inicio",
+      "Type": "bigint"
+    },
+    {
+      "Name": "horarios",
+      "Type": "bigint"
+    },
+    {
+      "Name": "seccion",
+      "Type": "bigint"
+    },
+    {
+      "Name": "horarios.val.dia",
+      "Type": "bigint"
+    },
+    {
+      "Name": "__v",
+      "Type": "bigint"
+    },
+    {
+      "Name": "horarios.val.hora_fin",
+      "Type": "bigint"
+    },
+    {
+      "Name": "periodo",
+      "Type": "string"
+    },
+    {
+      "Name": "horarios.val.salon",
+      "Type": "string"
+    },
+    {
+      "Name": "index",
+      "Type": "bigint"
+    },
+    {
+      "Name": "creditos",
+      "Type": "bigint"
+    },
+    {
+      "Name": "codigo_curso",
+      "Type": "string"
+    },
+    {
+      "Name": "total_cupos",
+      "Type": "bigint"
+    },
+    {
+      "Name": "_id",
+      "Type": "string"
+    },
+    {
+      "Name": "horarios.val._id",
+      "Type": "string"
+    },
+    {
+      "Name": "nombre_curso",
+      "Type": "string"
+    },
+    {
+      "Name": "id",
+      "Type": "bigint"
+    }
+]
