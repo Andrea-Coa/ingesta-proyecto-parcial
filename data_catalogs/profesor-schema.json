@@ -1,0 +1,22 @@
+[
+    {
+        "Name":"id",
+        "Type":"bigint"
+    },
+    {
+        "Name":"nombre",
+        "Type":"string"
+    },
+    {
+        "Name":"correo",
+        "Type":"string"
+    },
+    {
+        "Name":"sueldo",
+        "Type":"double"
+    },
+    {
+        "Name":"fecha_nacimiento",
+        "Type":"string"
+    }
+]

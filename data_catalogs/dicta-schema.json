@@ -1,0 +1,30 @@
+[
+    {
+        "Name":"id",
+        "Type":"bigint"
+    },
+    {
+        "Name":"id_profesor",
+        "Type":"bigint"
+    },
+    {
+        "Name":"codigo_curso",
+        "Type":"string"
+    },
+    {
+        "Name":"nombre_curso",
+        "Type":"string"
+    },
+    {
+        "Name":"seccion",
+        "Type":"int"
+    },
+    {
+        "Name":"periodo",
+        "Type":"string"
+    },
+    {
+        "Name":"horas_semana",
+        "Type":"int"
+    }
+]
